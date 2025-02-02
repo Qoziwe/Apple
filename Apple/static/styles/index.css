@@ -1,0 +1,153 @@
+body,
+a,
+p,
+h1,
+button,
+hr,
+input {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  width: 60%;
+  height: 150vh;
+  margin: 0 auto;
+}
+
+#Header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#Header hr {
+  width: 100%;
+  height: 0.05vw;
+  background-color: #919191;
+  border: 0;
+  border-radius: 1vw;
+}
+
+#H-HighBlock {
+  height: 2.5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#H-HighBlock span {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+#H-HighBlock span a {
+  display: flex;
+  align-items: center;
+  font-size: 0.65vw;
+  font-family: Montserrat;
+  font-weight: 900;
+  color: #919191;
+}
+#H-HighBlock span a:hover {
+  text-decoration: underline;
+}
+#H-HighBlock span svg {
+  width: 1.1vw;
+  margin-right: 0.2vw;
+}
+
+#H-MainHeader {
+  width: 60vw;
+  height: 3.5vw;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#H-MainHeader.fixed {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+#H-MainHeader span {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 0.8vw;
+}
+#H-MainHeader span a {
+  font-size: 0.85vw;
+  font-family: "SF Pro Display", Helvetica, Arial, sans-serif;
+  color: #353535;
+}
+#H-MainHeader span h1 {
+  font-size: 1.5vw;
+  margin-right: 1vw;
+  font-weight: 900;
+}
+#H-MainHeader button {
+  width: 5vw;
+  position: static;
+  display: flex;
+  align-items: center;
+  gap: 0.4vw;
+  background-color: #00000000;
+  border: 0;
+  font-size: 1vw;
+  font-family: "SF Pro Display", Helvetica, Arial, sans-serif;
+}
+#H-MainHeader button svg {
+  width: 1.5vw;
+  height: 1.5vw;
+}
+
+#WelcomeBanner {
+  width: 60vw;
+  height: 20vw;
+  display: flex;
+  align-items: center;
+  gap: 1.8vw;
+  margin: 2vw 0 2vw 0;
+}
+#WelcomeBanner img {
+  width: 25vw;
+  border-radius: 2vw;
+}
+#WelcomeBanner span {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9vw;
+  text-align: left;
+}
+#WelcomeBanner span p {
+  width: 100%;
+  font-size: 0.8vw;
+  font-family: Montserrat;
+  font-weight: 900;
+  color: #919191;
+  text-align: left;
+}
+#WelcomeBanner span h1 {
+  font-size: 1.8vw;
+  font-family: "SF Pro Display", Helvetica, Arial, sans-serif;
+}
+#WB-Buttons {
+  display: flex;
+  gap: 1vw;
+  margin-top: 1.5vw;
+}
+#WB-Buttons button {
+  width: 8vw;
+  height: 2.5vw;
+  border: 0;
+  border-radius: 0.5vw;
+  font-size: 0.7vw;
+  font-family: "SF Pro Display", Helvetica, Arial, sans-serif;
+  font-weight: 900;
+}
+#WB-Buttons button:nth-child(1) {
+  background-color: #353535;
+  color: white;
+}
